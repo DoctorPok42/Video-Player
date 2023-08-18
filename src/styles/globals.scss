@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-Regular.ttf');
+}
+
+:root {
+  --max-width: 1200px;
+  --border-radius: 10px;
+  --transition: all 0.2s ease-in-out;
+  --font-family: 'Nunito', sans-serif;
+
+  --purple: #7c69ff;
+
+  --grey: #444;
+  --grey2: #313131;
+
+  --white: #ffffff;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  transition: var(--transition);
+}
